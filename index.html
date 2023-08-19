@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet"  href="index.css" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Color Generator</title>
+</head>
+<body>
+    <div id="hero" class="first-container">
+        <input type="color" id="color-input"/>
+        <select name="colors" id="color-mode">
+            <option value="monochrome">monochrome</option>
+            <option value="monochrome-dark">monochrome-dark </option>
+            <option value="monochrome-light">monochrome-light</option>
+            <option value="analogic">analogic</option>
+            <option value="complement">complement</option>
+            <option value="analogic-complement">analogic-complement</option>
+            <option value="quad">quad</option>
+        </select>
+        <input type="number" placeholder="enter numbers from 1-6" id="count"/>
+        <button id="get-color">Get color scheme</button>
+    </div>
+    <div id="color-div" class="color-div">
+
+    </div>
+   <script src="index.js"></script> 
+</body>
+</html>
+
